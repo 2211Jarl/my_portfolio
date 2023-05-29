@@ -1,0 +1,122 @@
+<!doctype html>
+<head>
+   <title>PROJECTS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        .image-container{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .button{
+            background-color:rgb(255, 60, 0);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        body{
+            background-image:url("project.png");
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .button:hover{
+            background-color: rgb(255, 147, 97);
+        }
+        .center{
+            text-align: center;
+        }
+        .container{
+            background-color: black;
+            max-width: 1000px;
+            margin: 100px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .title-container{
+            border: 1px solid #ccc;
+            padding: 20px;
+            background: black;
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class = "center">
+        
+        <div class="title-container">
+            <h1>MY PROJECTS</h1>
+        </div>
+        <div class="container">
+            <div class = "center">
+                <h2>To display different business densities in Chennai</h2>
+                <div class = "image-container">
+                        <div class="center">
+                            <img src="2.png" alt="Optimal", class="center">
+                        </div>
+                </div>
+                <div class = "center">
+                    <p>
+                        Here, I use Foursquare API with a few predefined town names in Chennai to find<br> 
+                        the number of restaurants present in each town. I use Python to find the<br> 
+                        solution using K-Means Clustering and Folium.
+                    </p>
+                    <br>
+                    <br>
+                    <h2>Performing Data Analysis on a device's working using Excel</h2>
+                    <div class = "image-container">
+                        <div class="center">
+                            <img src="1.png" alt="Analysis", class="center">
+                        </div>
+                    </div>
+                    <p>
+                        As part of my work as an intern in a Data Analytics company,<br> 
+                        I used power query in Excel to implement the data into pivot tables and<br> 
+                        draw visualizations from the data to better understand the working of the device.
+                    </p>
+                    <br>
+                    <br>
+                    <h2>Building a User Interface with Python</h2>
+                    <div class = "image-container">
+                        <div class="center">
+                            <img src="3.png" alt="UI Design", class="center">
+                        </div>
+                    </div>
+                    <p>
+                        As part of the work assigned to me during my internship, I built and created a <br> 
+                        UI from scratch using the Python tkinter library. It adds records to the database <br>
+                        after input and opens another textbox to write your content.
+                    </p>
+                    <br>
+                    <br>
+                    <h2>Building a User Interface with Python</h2>
+                    <div class = "image-container">
+                        <div class="center">
+                            <img src="4.png" alt="UI Design", class="center">
+                        </div>
+                    </div>
+                    <p>
+                        Using folium library in Python, I tried to simulate the
+                        locations I visited on a particular day <br> similarly done by google
+                        and many other apps. This is an interactive map which <br> marks all 
+                        locations recorded on a particular day. 
+                    </p>
+                </div> 
+                <a href="./index.html"> 
+                <button class ="button">Back to home</button>
+                </a>
+        </div>    
+    </div>
+</body>
+</html>
